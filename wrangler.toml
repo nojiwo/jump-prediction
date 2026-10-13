@@ -1,0 +1,9 @@
+name = "jump-prediction-release-watch"
+main = "worker/index.ts"
+compatibility_date = "2026-10-13"
+
+[triggers]
+crons = ["0 * * * *"]
+
+# Set PUBLISH_ENDPOINT via dashboard to your Vercel deployment's /api/cron/publish
+# Set CRON_SHARED_SECRET via wrangler secret put (never commit a secret).

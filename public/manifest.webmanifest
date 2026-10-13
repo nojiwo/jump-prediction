@@ -1,0 +1,11 @@
+{
+ "name":"ジャンプ掲載順予想",
+ "short_name":"ジャンプ予想",
+ "description":"週刊少年ジャンプの掲載順を予想・採点・大会で競うアプリ",
+ "start_url":"/",
+ "scope":"/",
+ "display":"standalone",
+ "background_color":"#ffffff",
+ "theme_color":"#ffffff",
+ "icons":[{"src":"/icons/jump-logo.svg","type":"image/svg+xml","sizes":"any","purpose":"any"}]
+}
